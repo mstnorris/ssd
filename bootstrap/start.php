@@ -26,9 +26,8 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('Michaels-MacBook-Pro.local
-',
-    'remote' => array('host284.hostmonster.com')),
+	'local' => array('Michaels-MacBook-Pro'),
+    'remote' => array('host284.hostmonster'),
 
 ));
 
