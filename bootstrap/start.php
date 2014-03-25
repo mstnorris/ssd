@@ -27,7 +27,6 @@ $app = new Illuminate\Foundation\Application;
 $env = $app->detectEnvironment(array(
 
 	'local' => array('localhost'),
-    'remote' => array('host284.hostmonster'),
 
 ));
 
