@@ -11,8 +11,6 @@
 |
 */
 
-dd(App::environment());
-
 Route::get('/', function()
 {
 	return View::make('hello');
@@ -27,5 +25,6 @@ Route::get('contact', function()
 
 Route::get('env', function()
 {
-    return App::environment();
+    //return App::environment();
+    dd(Config::get('database.connections.mysql'));
 });
