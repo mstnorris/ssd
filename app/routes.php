@@ -22,3 +22,8 @@ Route::get('contact', function()
 {
     return 'contact page';
 });
+
+Route::get('env', function()
+{
+    return App::environment();
+});
