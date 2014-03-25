@@ -1,0 +1,1 @@
+/Users/Mike/Documents/git/ssd/app/views/Pages/index.blade.php

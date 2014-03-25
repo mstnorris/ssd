@@ -13,6 +13,12 @@
 
 Route::get('/', function()
 {
-	// return View::make('hello');
-	return 'hello';
+	return View::make('hello');
+});
+
+Route::resource('Pages', 'PagesController');
+
+Route::get('contact', function()
+{
+    return 'contact page';
 });
